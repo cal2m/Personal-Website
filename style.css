@@ -21,3 +21,9 @@
 .resume-contact{gap:0 0;margin:12px 0 30px;padding:0;font:11px 'DM Mono',monospace}.resume-contact>*{padding:3px 16px;border-left:1px solid var(--line)}.resume-contact>*:first-child{padding-left:0;border-left:0}.resume-entry-head{display:block}.resume-entry h3{font-weight:800}.resume-entry .resume-detail{font:11px 'DM Mono',monospace;color:var(--muted);margin:4px 0 10px}.resume-experience-grid .resume-entry:nth-child(2){border-top:1px solid #e4e7e0}
 .projects-cta{padding-top:64px}
 @media(max-width:700px){.resume-contact{display:flex;flex-wrap:wrap;gap:5px 0}.resume-contact>*{padding:3px 10px}.resume-contact>*:first-child{padding-left:0}.projects-cta{padding-top:44px}}
+
+/* Final layout adjustments requested from the live preview */
+.resume-contact{display:flex;flex-wrap:wrap;align-items:center;column-gap:14px;row-gap:8px;margin:12px 0 30px;padding:0;font:11px 'DM Mono',monospace;color:#626e66}.resume-contact>*{padding:0;border:0}.resume-contact .contact-divider{color:#a8b0a8}.hero-bottom{display:block}.hero-bottom .text-link{margin-top:22px}.projects-cta{display:flex;justify-content:flex-end;padding-top:88px}
+@media(max-width:700px){.hero-bottom .text-link{margin-top:18px}.projects-cta{padding-top:56px}}
+.hero-bottom .text-link{display:flex;width:max-content;margin-top:22px}
+@media(max-width:700px){.hero-bottom .text-link{margin-top:18px}}
